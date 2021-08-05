@@ -1,0 +1,5 @@
+l_image,r_image,target_sound,correct
+stimuli/dog.png,stimuli/cat.png,stimuli/dog.wav,stimuli/dog.png
+stimuli/cat.png,stimuli/dog.png,stimuli/dog.wav,stimuli/dog.png
+stimuli/dog.png,stimuli/cat.png,stimuli/cat.wav,stimuli/cat.png
+stimuli/cat.png,stimuli/dog.png,stimuli/cat.wav,stimuli/cat.png

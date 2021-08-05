@@ -1,0 +1,135 @@
+9.2894 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb98b5539b0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb98a2fb048>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+9.2897 	EXP 	window1: mouseVisible = True
+9.2897 	EXP 	window1: recordFrameIntervals = False
+9.4719 	EXP 	window1: recordFrameIntervals = True
+9.6564 	EXP 	window1: recordFrameIntervals = False
+12.2680 	EXP 	Created star = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([ 1,  1, -1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([ 1.,  1., -1.]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='star', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+12.2700 	EXP 	Created right_rectangle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='right_rectangle', opacity=1, ori=0.0, pos=array([0.5, 0. ]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+12.2717 	EXP 	Created left_rectangle = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='left_rectangle', opacity=1, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+12.2781 	EXP 	Created right_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_image', opacity=1, ori=0.0, pos=array([0.5, 0. ]), size=array([0.6, 0.6]), texRes=128.0, units='height', win=Window(...))
+12.2817 	EXP 	Created left_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_image', opacity=1, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.6, 0.6]), texRes=128.0, units='height', win=Window(...))
+12.2818 	EXP 	window1: mouseVisible = True
+12.2837 	EXP 	Created left_rectangle_trial = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='left_rectangle_trial', opacity=1, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+12.2854 	EXP 	Created right_rectangle_trial = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=UNKNOWN, interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=UNKNOWN, lineWidth=1.0, name='right_rectangle_trial', opacity=1, ori=0.0, pos=array([0.5, 0. ]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+12.2896 	EXP 	Created left_image_trial = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_image_trial', opacity=1, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.6, 0.6]), texRes=128.0, units='height', win=Window(...))
+12.2939 	EXP 	Created right_image_trial = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_image_trial', opacity=1, ori=0.0, pos=array([0.5, 0. ]), size=array([0.6, 0.6]), texRes=128.0, units='height', win=Window(...))
+12.2941 	EXP 	window1: mouseVisible = True
+12.4265 	EXP 	Sound trial_sound set volume 1.000
+12.4382 	EXP 	Imported psychopy_tutorial_trials.csv as conditions, 4 conditions, 4 params
+12.4388 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+12.4391 	EXP 	New trial (rep=0, index=0): OrderedDict([('l_image', 'stimuli/cat.png'), ('r_image', 'stimuli/dog.png'), ('target_sound', 'stimuli/cat.wav'), ('correct', 'stimuli/cat.png')])
+12.4901 	EXP 	right_image: image = 'stimuli/dog.png'
+12.4901 	EXP 	left_image: image = 'stimuli/cat.png'
+12.7747 	EXP 	star: autoDraw = True
+12.7747 	EXP 	right_rectangle: autoDraw = True
+12.7747 	EXP 	left_rectangle: autoDraw = True
+12.7747 	EXP 	right_image: autoDraw = True
+12.7747 	EXP 	left_image: autoDraw = True
+14.6122 	DATA 	Mouse: Left button down, pos=(690,456)
+14.6582 	EXP 	Sound trial_sound started
+14.6744 	EXP 	star: autoDraw = False
+14.6744 	EXP 	right_rectangle: autoDraw = False
+14.6744 	EXP 	left_rectangle: autoDraw = False
+14.6744 	EXP 	right_image: autoDraw = False
+14.6744 	EXP 	left_image: autoDraw = False
+14.6744 	EXP 	left_image_trial: image = 'stimuli/cat.png'
+14.6744 	EXP 	right_image_trial: image = 'stimuli/dog.png'
+14.6744 	EXP 	left_rectangle_trial: autoDraw = True
+14.6744 	EXP 	right_rectangle_trial: autoDraw = True
+14.6744 	EXP 	left_image_trial: autoDraw = True
+14.6744 	EXP 	right_image_trial: autoDraw = True
+14.7251 	DATA 	Mouse:  Left button up, pos=(690,456)
+15.9751 	EXP 	Sound trial_sound reached end of file
+16.1587 	DATA 	Mouse: Left button down, pos=(357,462)
+16.1628 	EXP 	New trial (rep=0, index=1): OrderedDict([('l_image', 'stimuli/dog.png'), ('r_image', 'stimuli/cat.png'), ('target_sound', 'stimuli/dog.wav'), ('correct', 'stimuli/dog.png')])
+16.1911 	EXP 	left_rectangle_trial: autoDraw = False
+16.1911 	EXP 	right_rectangle_trial: autoDraw = False
+16.1911 	EXP 	left_image_trial: autoDraw = False
+16.1911 	EXP 	right_image_trial: autoDraw = False
+16.1911 	EXP 	right_image: image = 'stimuli/cat.png'
+16.1911 	EXP 	left_image: image = 'stimuli/dog.png'
+16.3259 	DATA 	Mouse:  Left button up, pos=(357,462)
+16.4748 	EXP 	star: autoDraw = True
+16.4748 	EXP 	right_rectangle: autoDraw = True
+16.4748 	EXP 	left_rectangle: autoDraw = True
+16.4748 	EXP 	right_image: autoDraw = True
+16.4748 	EXP 	left_image: autoDraw = True
+17.2588 	DATA 	Mouse: Left button down, pos=(724,444)
+17.2913 	EXP 	Sound trial_sound started
+17.3072 	EXP 	star: autoDraw = False
+17.3072 	EXP 	right_rectangle: autoDraw = False
+17.3072 	EXP 	left_rectangle: autoDraw = False
+17.3072 	EXP 	right_image: autoDraw = False
+17.3072 	EXP 	left_image: autoDraw = False
+17.3072 	EXP 	left_image_trial: image = 'stimuli/dog.png'
+17.3072 	EXP 	right_image_trial: image = 'stimuli/cat.png'
+17.3072 	EXP 	left_rectangle_trial: autoDraw = True
+17.3072 	EXP 	right_rectangle_trial: autoDraw = True
+17.3072 	EXP 	left_image_trial: autoDraw = True
+17.3072 	EXP 	right_image_trial: autoDraw = True
+17.3256 	DATA 	Mouse:  Left button up, pos=(724,444)
+18.5242 	DATA 	Mouse: Left button down, pos=(289,415)
+18.5297 	EXP 	Sound trial_sound stopped
+18.5300 	EXP 	New trial (rep=0, index=2): OrderedDict([('l_image', 'stimuli/cat.png'), ('r_image', 'stimuli/dog.png'), ('target_sound', 'stimuli/dog.wav'), ('correct', 'stimuli/dog.png')])
+18.5579 	EXP 	left_rectangle_trial: autoDraw = False
+18.5579 	EXP 	right_rectangle_trial: autoDraw = False
+18.5579 	EXP 	left_image_trial: autoDraw = False
+18.5579 	EXP 	right_image_trial: autoDraw = False
+18.5579 	EXP 	right_image: image = 'stimuli/dog.png'
+18.5579 	EXP 	left_image: image = 'stimuli/cat.png'
+18.6585 	DATA 	Mouse:  Left button up, pos=(289,415)
+18.8405 	EXP 	star: autoDraw = True
+18.8405 	EXP 	right_rectangle: autoDraw = True
+18.8405 	EXP 	left_rectangle: autoDraw = True
+18.8405 	EXP 	right_image: autoDraw = True
+18.8405 	EXP 	left_image: autoDraw = True
+19.5086 	DATA 	Mouse: Left button down, pos=(693,424)
+19.5413 	EXP 	Sound trial_sound started
+19.5476 	EXP 	star: autoDraw = False
+19.5476 	EXP 	right_rectangle: autoDraw = False
+19.5476 	EXP 	left_rectangle: autoDraw = False
+19.5476 	EXP 	right_image: autoDraw = False
+19.5476 	EXP 	left_image: autoDraw = False
+19.5476 	EXP 	left_image_trial: image = 'stimuli/cat.png'
+19.5476 	EXP 	right_image_trial: image = 'stimuli/dog.png'
+19.5476 	EXP 	left_rectangle_trial: autoDraw = True
+19.5476 	EXP 	right_rectangle_trial: autoDraw = True
+19.5476 	EXP 	left_image_trial: autoDraw = True
+19.5476 	EXP 	right_image_trial: autoDraw = True
+19.6117 	DATA 	Mouse:  Left button up, pos=(693,424)
+20.8081 	DATA 	Mouse: Left button down, pos=(1113,451)
+20.8137 	EXP 	Sound trial_sound stopped
+20.8140 	EXP 	New trial (rep=0, index=3): OrderedDict([('l_image', 'stimuli/dog.png'), ('r_image', 'stimuli/cat.png'), ('target_sound', 'stimuli/cat.wav'), ('correct', 'stimuli/cat.png')])
+20.8326 	DATA 	Mouse:  Left button up, pos=(1113,451)
+20.8420 	EXP 	left_rectangle_trial: autoDraw = False
+20.8420 	EXP 	right_rectangle_trial: autoDraw = False
+20.8420 	EXP 	left_image_trial: autoDraw = False
+20.8420 	EXP 	right_image_trial: autoDraw = False
+20.8420 	EXP 	right_image: image = 'stimuli/cat.png'
+20.8420 	EXP 	left_image: image = 'stimuli/dog.png'
+21.1244 	EXP 	star: autoDraw = True
+21.1244 	EXP 	right_rectangle: autoDraw = True
+21.1244 	EXP 	left_rectangle: autoDraw = True
+21.1244 	EXP 	right_image: autoDraw = True
+21.1244 	EXP 	left_image: autoDraw = True
+21.5745 	DATA 	Mouse: Left button down, pos=(712,443)
+21.6070 	EXP 	Sound trial_sound started
+21.6103 	EXP 	star: autoDraw = False
+21.6103 	EXP 	right_rectangle: autoDraw = False
+21.6103 	EXP 	left_rectangle: autoDraw = False
+21.6103 	EXP 	right_image: autoDraw = False
+21.6103 	EXP 	left_image: autoDraw = False
+21.6103 	EXP 	left_image_trial: image = 'stimuli/dog.png'
+21.6103 	EXP 	right_image_trial: image = 'stimuli/cat.png'
+21.6103 	EXP 	left_rectangle_trial: autoDraw = True
+21.6103 	EXP 	right_rectangle_trial: autoDraw = True
+21.6103 	EXP 	left_image_trial: autoDraw = True
+21.6103 	EXP 	right_image_trial: autoDraw = True
+21.6749 	DATA 	Mouse:  Left button up, pos=(712,443)
+22.9241 	EXP 	Sound trial_sound reached end of file
+22.9575 	DATA 	Mouse: Left button down, pos=(1174,445)
+22.9754 	EXP 	left_rectangle_trial: autoDraw = False
+22.9754 	EXP 	right_rectangle_trial: autoDraw = False
+22.9754 	EXP 	left_image_trial: autoDraw = False
+22.9754 	EXP 	right_image_trial: autoDraw = False
+23.2612 	EXP 	window1: mouseVisible = True
