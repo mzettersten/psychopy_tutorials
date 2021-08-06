@@ -1,0 +1,5 @@
+l_image,r_image,target_sound,correct
+stimuli/dog.png,stimuli/pig.png,stimuli/dog.wav,stimuli/dog.png
+stimuli/penguin.png,stimuli/tiger.png,stimuli/tiger.wav,stimuli/tiger.png
+stimuli/pig.png,stimuli/dog.png,stimuli/pig.wav,stimuli/pig.png
+stimuli/tiger.png,stimuli/penguin.png,stimuli/penguin.wav,stimuli/penguin.png
